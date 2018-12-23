@@ -1,0 +1,112 @@
+body {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   background: url(images/BGimage.jpg) center center fixed;
+   background-size: cover;
+}
+
+header {
+   background: linear-gradient(white, #02C2F4);
+   background: -webkit-linear-gradient(white, #02C2F4);
+   background: -moz-linear-gradient(white, #02C2F4);
+   background: -o-linear-gradient(white, #02C2F4);
+   background: -ms-linear-gradient(white, #02C2F4);
+   height: 75px;
+   width: 25%;
+   margin: 10px auto;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 3em;
+   font-weight: bold;
+   color: black;
+   line-height: 75px;
+   border-radius: 50px;
+}
+
+.inputContainer {
+   width: 200px;
+   margin: 0 auto;
+}
+
+.input {
+   height: 30px;
+   font-size: 1.2em;
+}
+
+#slider {
+   margin: 5px auto;
+}
+
+#circle {
+   height: 3px;
+   width: 3px;
+   border-radius: 50%;
+   background: black;
+   margin: 0 auto;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+}
+
+#thicknessInput {
+   position: relative;
+}
+
+#canvasContainer {
+   width: 500px;
+   height: 400px;
+   background: white;
+   border-radius: 10px;
+   border: 1px solid black;
+   margin: 10px auto;
+
+}
+
+#buttonsContainer {
+   width: 460px;
+   margin: 0 auto;
+}
+
+.inputControls {
+   width: 130px;
+   margin: 10px 10px;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1.5em;
+   font-weight: bold;
+   line-height: 25px;
+   float: left;
+}
+
+.buttons{
+   display: block;
+   color: black;
+   background: linear-gradient(white, #02C2F4);
+   background: -webkit-linear-gradient(white, #02C2F4);
+   background: -moz-linear-gradient(white, #02C2F4);
+   background: -o-linear-gradient(white, #02C2F4);
+   background: -ms-linear-gradient(white, #02C2F4);
+   cursor: pointer;
+   border-radius: 100px;
+   border: 1px solid black;
+}
+
+.buttons:hover{
+   color: white;
+   background: black;
+   border: 2px solid white;
+}
+
+#paint {
+   cursor: crosshair;
+}
+
+.eraseMode{
+   background: red;
+   color: white;
+   border: 2px solid black;
+}
